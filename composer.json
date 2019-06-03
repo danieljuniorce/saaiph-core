@@ -1,0 +1,24 @@
+{
+    "name": "saaiph/core",
+    "description": "Core the framework Saaiph.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "danieljuniorce",
+            "email": "danieljuniorce@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "saaiph/router": "dev-master",
+        "symfony/console": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saaiph\\": "src/",
+            "Saaiph\\Core\\": "src/Core/",
+            "Saaiph\\Component\\": "src/Component/",
+            "Saaiph\\Command\\": "src/cli/command/" 
+        }
+    }
+}
