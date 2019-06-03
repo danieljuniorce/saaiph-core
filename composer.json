@@ -2,13 +2,16 @@
     "name": "saaiph/core",
     "description": "Core the framework Saaiph.",
     "license": "MIT",
+    "type": "library",
+    "version": "1.0",
     "authors": [
         {
             "name": "danieljuniorce",
             "email": "danieljuniorce@hotmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "saaiph/router": "dev-master",
         "symfony/console": "^4.2"
