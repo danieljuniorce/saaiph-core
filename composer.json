@@ -10,7 +10,6 @@
             "email": "danieljuniorce@hotmail.com"
         }
     ],
-    "prefer-stable": true,
     "require": {
         "saaiph/router": "dev-master",
         "symfony/console": "^4.2"
